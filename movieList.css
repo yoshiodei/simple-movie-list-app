@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.movie {
+    width: 450px;
+    height: auto;
+    margin: 25px auto;
+    border: 1px solid darkgrey;
+    border-radius: 8px;
+    font-family: Helvetica;
+    box-shadow: 3px 3px 5px darkgrey;
+}
+
+.movie__box__top {
+    background-color: palevioletred;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    padding: 7px;
+    border-bottom: 1px solid darkgrey;
+}
+
+.movie__box__top__header, .movie__box__top__para{
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.movie__box__top__form{
+    margin: 8px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.movie__box__top__input{
+    height: 30px;
+    width: 300px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+    color: darkslategray;
+}
+
+.movie__box__main__div{
+    width: 95%;
+    height: 70px;
+    border: 1px solid darkgrey;
+    margin: 7px auto;
+    border-radius: 4px;
+    display: flex;
+    padding: 5px;
+}
+
+.movie__box__main__icon {
+    font-size: 60px;   
+    color: hotpink;
+}
+
+.movie__box__line {
+    height: 1px;
+    background-color: darkgrey;
+    margin: 5px 0;
+}
+
+.movie__box__main__inner__div{
+    padding-left: 8px;
+    width: 100%;
+}
+
+.movie__box__main__title {
+    color:darkslategray;
+}
+
+.delete ,.edit {
+    display: inline-block;
+    width: 55px;
+    height: 23px;
+    padding: 2px;
+    text-align: center;
+    color: darkslategrey;
+    border-radius: 2px;
+}
+
+.delete:hover{
+    background-color: #cb6b6b;
+    cursor: pointer;
+} 
+
+.edit:hover{
+    background-color:#6ec56e;
+    cursor: pointer;    
+}
+
+.delete {
+    background-color: lightcoral;
+    
+}
+
+.edit {
+     background-color: lightgreen;
+     margin-left: 233px;
+}
+
+.edt{
+    margin-right: 4px;
+}
+
+.movie__box__footer { 
+    background-color: palevioletred;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    padding: 20px;
+    border-top: 1px solid darkgrey;    
+}
+
+.movie__box__footer__input{
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid darkgray;
+    padding-left: 5px;
+    color: darkslategray;
+}
+
+.movie__box__footer__btn {
+    height: 30px;
+    width: 70px;
+    border-radius: 4px;
+    border: none;
+    background-color: darkviolet;
+    color: white;
+    margin-left: 5px;
+}
+
+.movie__box__footer__form{
+    display: flex;
+    justify-content: center;
+}

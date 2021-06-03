@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie List App</title>
+    <link href="fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="movieList.css">
+</head>
+<body>
+    <div class="movie">
+        <header class="movie__box__top">
+            <h1 class="movie__box__top__header">Yoshi's Movie List</h1>
+            <p class="movie__box__top__para">There are <span class="movie__box__top__span">5</span> movies in the list</p> 
+            <form class="movie__box__top__form" id="search">
+                <input class="movie__box__top__input"  type="text" placeholder="Please enter movie name" autocomplete="off">
+            </form>   
+        </header>
+        <main class="movie__box__main">
+            <div class="movie__box__main__div">
+                <i class="fas fa-compact-disc movie__box__main__icon"></i>
+                <div class="movie__box__main__inner__div">
+                    <h4 class="movie__box__main__title">Harry Potter and the Chamber of Secrets</h4>
+                    <div class="movie__box__line"></div>
+                    <span class="edit">Edit</span>
+                    <span class="delete">Delete</span>
+                </div>
+            </div>
+            <div class="movie__box__main__div">
+                <i class="fas fa-compact-disc movie__box__main__icon"></i>
+                <div class="movie__box__main__inner__div">
+                    <h4 class="movie__box__main__title">Avatar</h4>
+                    <div class="movie__box__line"></div>
+                    <span class="edit">Edit</span>
+                    <span class="delete">Delete</span>
+                </div>
+             </div>
+             <div class="movie__box__main__div">
+                <i class="fas fa-compact-disc movie__box__main__icon"></i>
+                <div class="movie__box__main__inner__div">
+                <h4 class="movie__box__main__title">Avengers: Age of Ultron</h4>
+                <div class="movie__box__line"></div>
+                <span class="edit">Edit</span>
+                <span class="delete">Delete</span>
+                </div>
+            </div>
+            <div class="movie__box__main__div">
+                <i class="fas fa-compact-disc movie__box__main__icon"></i>
+                <div class="movie__box__main__inner__div">
+                <h4 class="movie__box__main__title">The Hobbit</h4>
+                <div class="movie__box__line"></div>
+                <span class="edit">Edit</span>
+                <span class="delete">Delete</span>
+                </div>
+            </div>
+            <div class="movie__box__main__div">
+                <i class="fas fa-compact-disc movie__box__main__icon"></i>
+                <div class="movie__box__main__inner__div">
+                <h4 class="movie__box__main__title">Think Like a Man</h4>
+                <div class="movie__box__line"></div>
+                <span class="edit">Edit</span>
+                <span class="delete">Delete</span>
+                </div>
+            </div>
+        </main>
+        <footer class="movie__box__footer">
+            <form id="form__bottom" class="movie__box__footer__form">
+                <input type="text" class="movie__box__footer__input" id="addNew"  placeholder="Please enter name of movie to add" autocomplete="off">
+                <button class="movie__box__footer__btn">Add</button>
+            </form>    
+        </footer>
+    </div>
+</body>
+<script src="movieList.js"></script>
+</html>
